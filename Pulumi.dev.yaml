@@ -1,3 +1,3 @@
-encryptionsalt: v1:Glw/5Ngpyas=:v1:zMYyiuzXH+nLv7sa:zo9G3SenXNUzZvfgqQ+OjtWDTV5uhg==
+encryptionsalt: v1:fn7XQANYJYA=:v1:NOzm3LD1IZ8ZC9dk:07BVDsAYNT+ERh0HYeahePTxFH659w==
 config:
-  gcp:project: qwiklabs-gcp-00-18da75e2051d
+  gcp:project: jr-dev-host-proj-001

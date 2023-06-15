@@ -1,0 +1,7 @@
+steps:
+- name: gcr.io/jr-dev-host-proj-001/pulumi-node
+  entrypoint: /bin/sh
+  args:
+  - '-c'
+  - 'yarn install && pulumi login gs://jimit-pulumi-demo-state && pulumi stack select dev && pulumi up -y'
+  env: ["PULUMI_ACCESS_TOKEN=$_INSECURE_SUBSTITUTION_PULUMI_ACCESS_TOKEN_FOR_TESTING"]
