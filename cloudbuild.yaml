@@ -3,5 +3,5 @@ steps:
   entrypoint: /bin/sh
   args:
   - '-c'
-  - 'yarn install && pulumi org set-default rangrasjimit && pulumi login rangrasjimit && pulumi stack select rangrasjimit/cicd-demo/dev && pulumi up -y'
+  - 'yarn install && pulumi org set-default rangrasjimit && pulumi login && pulumi stack select rangrasjimit/cicd-demo/dev && pulumi up -y'
   env: ["PULUMI_ACCESS_TOKEN=$_TOKEN"]
