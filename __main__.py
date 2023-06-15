@@ -3,7 +3,7 @@
 import pulumi
 from pulumi_gcp import storage
 
-bucket = storage.Bucket('jimit-demo-bucket', 
+bucket = storage.Bucket('jimit-pulumi-demo-bucket', 
     location = "US",
     uniform_bucket_level_access = True
 )
