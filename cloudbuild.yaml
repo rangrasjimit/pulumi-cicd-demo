@@ -1,5 +1,5 @@
 steps:
-- name: gcr.io/jr-dev-host-proj-001/pulumi-node
+- name: gcr.io/jr-dev-host-proj-001/pulumi-python
   entrypoint: /bin/sh
   args:
   - '-c'
