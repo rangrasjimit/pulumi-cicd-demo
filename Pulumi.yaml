@@ -1,4 +1,4 @@
-name: pulumi-lab
+name: cicd-demo
 runtime:
   name: python
   options:
