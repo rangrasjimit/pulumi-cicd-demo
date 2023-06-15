@@ -3,5 +3,5 @@ steps:
   entrypoint: /bin/sh
   args:
   - '-c'
-  - 'yarn install && pulumi login gs://jimit-pulumi-demo-state && pulumi stack select dev && pulumi up -y'
-  env: ["PULUMI_ACCESS_TOKEN=$_INSECURE_SUBSTITUTION_PULUMI_ACCESS_TOKEN_FOR_TESTING"]
+  - 'yarn install && pulumi login gs://jimit-pulumi-demo-state && pulumi stack select stage && pulumi up -y'
+  env: ["PULUMI_CONFIG_PASSPHRASE=$_PASSPHRASE"]
